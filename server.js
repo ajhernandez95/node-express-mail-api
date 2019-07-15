@@ -3,6 +3,8 @@ const app = express();
 
 app.use(express.json());
 
+app.use('/', require('./routes/home'));
+
 app.use('/api/mail', require('./routes/mail'));
 
 const PORT = process.env.PORT || 8080;
