@@ -1,0 +1,17 @@
+{
+  "name": "mail-api",
+  "version": "1.0.0",
+  "description": "Mail api for contact form",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Alexander Hernandez",
+  "license": "MIT"
+}
